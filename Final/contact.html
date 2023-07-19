@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+          Final Project
+          Author: Timothy Jordan Whitehead
+          File: contact.html
+          Nav Title: Contact Us
+        -->
+        <meta charset="utf-8">
+        <title>Contact Us - Lark Branch Land</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="lbl_final.css" rel="stylesheet">
+    </head>
+
+
+    <body>
+    
+        <header>
+            <img src="LBL_logo1.png" alt="LBL Logo Image">
+            <h1>Lark Branch Land, LLC</h1>
+        </header>
+
+        <nav class="horizontal">
+            <a id="navicon" href="#"><img src="navicon.png" alt=""></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <h2>Contact Us</h2>
+            <p>For business inquiries or more information, please fill out this form and a member of our staff will get back with you:</p>
+            <hr>
+           
+            <form id="mainForm" method="post" action=""><!-- action removed for privacy of college -->
+                <fieldset id="mainFieldset1">
+                    <p>
+                        <label for="name">Name:</label>
+                        <input id="name" name="name" type="text" required>
+                    </p>    
+
+                    <p>
+                        <label for="address1">Adress Line 1:</label>
+                        <input id="address1" name="address1" type="text" required>
+                    </p>    
+
+                    <p>
+                        <label for="address2">Address Line 2:</label>
+                        <input id="address2" name="address2" type="text">
+                    </p>
+
+                    <p>
+                        <label for="city">City:</label>
+                        <input id="city" name="city" type="text" required>
+                    </p>
+
+                    <p>
+                        <label for="state">State:</label>
+                        <select id="state" name="state" required>
+                        <option value="">&nbsp;</option>
+                        <option value="AL">AL</option>
+                        <option value="AK">AK</option>
+                        <option value="AR">AR</option>	
+                        <option value="AZ">AZ</option>
+                        <option value="CA">CA</option>
+                        <option value="CO">CO</option>
+                        <option value="CT">CT</option>
+                        <option value="DC">DC</option>
+                        <option value="DE">DE</option>
+                        <option value="FL">FL</option>
+                        <option value="GA">GA</option>
+                        <option value="HI">HI</option>
+                        <option value="IA">IA</option>	
+                        <option value="ID">ID</option>
+                        <option value="IL">IL</option>
+                        <option value="IN">IN</option>
+                        <option value="KS">KS</option>
+                        <option value="KY" selected>KY</option>
+                        <option value="LA">LA</option>
+                        <option value="MA">MA</option>
+                        <option value="MD">MD</option>
+                        <option value="ME">ME</option>
+                        <option value="MI">MI</option>
+                        <option value="MN">MN</option>
+                        <option value="MO">MO</option>	
+                        <option value="MS">MS</option>
+                        <option value="MT">MT</option>
+                        <option value="NC">NC</option>	
+                        <option value="NE">NE</option>
+                        <option value="NH">NH</option>
+                        <option value="NJ">NJ</option>
+                        <option value="NM">NM</option>			
+                        <option value="NV">NV</option>
+                        <option value="NY">NY</option>
+                        <option value="ND">ND</option>
+                        <option value="OH">OH</option>
+                        <option value="OK">OK</option>
+                        <option value="OR">OR</option>
+                        <option value="PA">PA</option>
+                        <option value="RI">RI</option>
+                        <option value="SC">SC</option>
+                        <option value="SD">SD</option>
+                        <option value="TN">TN</option>
+                        <option value="TX">TX</option>
+                        <option value="UT">UT</option>
+                        <option value="VT">VT</option>
+                        <option value="VA">VA</option>
+                        <option value="WA">WA</option>
+                        <option value="WI">WI</option>	
+                        <option value="WV">WV</option>
+                        <option value="WY">WY</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="zip">Zip:</label>
+                        <input id="zip" name="zip" type="text" placeholder="nnnnn(-nnnn)" pattern="^\d{5}(-\d{4})?$" required>
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone:</label>
+                        <input id="phone" name="phone" type="tel" required placeholder="(nnn)nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input id="email" name="email" type="email" required>
+                    </p>
+
+                    <p>
+                        <label for="comments">Questions/Comments:</label> <br>
+                        <textarea name="comments" id="comments" rows="5" cols="80" style="width: 89%;"></textarea>
+                    </p>
+
+                    <p>
+                        <input id="submit" name="submit" type="submit">
+                        <input id="reset" name="reset" type="reset">
+                    </p>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+             <hr>
+             &copy; 2023 Lark Branch Land, LLC | <a href="mailto:TWhitehead@LarkBranchLand.com">Email us directly</a><br>
+             | <a href="index.html">Home</a> | <a href="services.html">Services</a> | <a href="contact.html">Contact Us</a> |
+             <br> This page is being constructed as part of the course requirements for ITSS 232 at The University of the Cumberlands.
+        </footer>
+
+    </body>
+</html>
