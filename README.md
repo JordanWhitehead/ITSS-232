@@ -1,6 +1,8 @@
 # ITSS-232
 
 This repository contains the final assignment for the ITSS-232 class at the University of the Cumberlands. The final assignment is a simple website featuring responsive design and other elements.
+https://www.twhitehead06654.ksshosting.com/final/
+The college hosts this website, and it may not always be available. If the page appears unavailable, the source for the website is within this repository. 
 
 ## Website Description
 
@@ -33,9 +35,3 @@ The website showcases my skills in web development and responsive design. It inc
 11. **Media Queries**: Media queries ensure the website's layout and styles adapt to different screen sizes, guaranteeing a consistent and optimal user experience.
 
 12. **HTML Meta Tags**: The HTML file includes necessary meta tags, such as charset, viewport, and author information, for proper rendering and indexing by search engines.
-
----
-
-## How to Run
-
-Download the Final repository and open the index.html with a web browser to view this website. 
